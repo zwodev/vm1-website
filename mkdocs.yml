@@ -1,0 +1,21 @@
+site_name: VM-1
+theme:
+  name: simple-blog
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Manual:
+    - Choose a version: version.md
+    - Installation: installation.md
+    - First steps: firststeps.md
+    - Reference: reference.md
+    - Development: defelopment.md
+  - About: about.md
+  
+  
