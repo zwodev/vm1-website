@@ -1,0 +1,49 @@
+/* Hide the theme-generated title on the homepage only */
+article>header h1 {
+    display: none;
+}
+
+pre {
+    line-height: 10px;
+}
+
+main img {
+    display: block;
+}
+
+@media only screen and (min-width:960px) {
+    footer img {
+        max-width: 75%;
+    }
+}
+
+/* @media only screen and (max-width:780px) {
+    footer img {
+        max-width: 50%;
+    }
+
+} */
+
+mark {
+    background-color: lightgray;
+    /* text-transform: uppercase; */
+}
+
+mark.b {
+    background-color: violet;
+    /* text-transform: uppercase; */
+}
+
+h2 {
+    background-color: pink;
+    margin-top: 3em !important;
+}
+
+ul {
+    list-style-type: "\2794";
+
+}
+
+.preview {
+    display: none;
+}

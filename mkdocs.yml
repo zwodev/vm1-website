@@ -8,14 +8,19 @@ theme:
     - navigation.tracking
     - navigation.expand
 
+copyright: the VM-1 is a project from the digital lab at the "ernst busch" academy of dramatic arts.<br/>it is made with ♥︎ in hamburg and berlin by nils zweiling and julian jungel.<br/><br/>the VM-1 was funded by <mark><a href="https://www.aventis-foundation.org/foerderung/kultur/digitale-experimente/">aventis foundation</a></mark> in 2025.<br/>the digital lab was funded by <mark><a href="https://stiftung-hochschullehre.de">stiftung innovation in der hochschullehre</a></mark> from 2021-2025<br/><img src="img/vm1-logos-flat.jpg" alt="image" >
+
 nav:
-  - Home: index.md
-  - Manual:
-    - Choose a version: version.md
-    - Installation: installation.md
-    - First steps: firststeps.md
-    - Reference: reference.md
-    - Development: defelopment.md
-  - About: about.md
-  
-  
+  - home: index.md
+  - ressources:
+      - detailed feature list: features.md
+      - video packs: videopacks.md
+      # - choose a version: version.md
+      # - installation: installation.md
+      # - first steps: firststeps.md
+      # - reference: reference.md
+      # - development: defelopment.md
+  # - about: about.md
+
+extra_css:
+  - custom.css
