@@ -1,6 +1,10 @@
 site_name: VM-1
+
 theme:
-  name: simple-blog
+  name: null
+  custom_dir: themes/mkdocs-simple-blog/mkdocs_simple_blog
+  font:
+    code: Roboto Mono
   features:
     - navigation.sections
     - navigation.tabs
