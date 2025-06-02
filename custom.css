@@ -7,6 +7,10 @@ pre {
     line-height: 10px;
 }
 
+a, code, li, p {
+    font-size: 18px !important;
+}
+
 main img {
     display: block;
 }
@@ -46,4 +50,9 @@ ul {
 
 .preview {
     display: none;
+}
+
+footer small {
+    font-size: 14px !important;
+    color: lightslategray
 }
