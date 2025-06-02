@@ -7,6 +7,10 @@ pre {
     line-height: 10px;
 }
 
+a, code, li, p, small {
+    font-size: 16px !important;
+}
+
 main img {
     display: block;
 }
